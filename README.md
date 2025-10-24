@@ -26,7 +26,6 @@ This project forms the first phase of a full compiler pipeline for arithmetic ex
 | **Scanner** | Converts input into tokens such as identifiers, numbers, operators, and parentheses. |
 | **Parser** | Validates expressions according to grammar rules and generates an AST. |
 | **DAG Builder** | Optimizes common subexpressions using DAG representation. |
-| **LLVM IR Emitter** | Outputs LLVM IR files (e.g., `test1.ll`) for further compilation. |
 | **Error Handling** | Reports lexical or syntax errors with descriptive messages and positions. |
 
 ---
