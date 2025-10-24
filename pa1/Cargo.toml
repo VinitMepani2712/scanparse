@@ -1,0 +1,13 @@
+
+[package]
+name = "pa1"
+version = "0.1.0"
+edition = "2021"
+
+# Produce an executable named `scanparse` even though the package is `pa1`
+[[bin]]
+name = "scanparse"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3
